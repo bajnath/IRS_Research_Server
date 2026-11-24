@@ -1,0 +1,26 @@
+---
+# cloud.gov (Cloud Foundry) deployment manifest.
+#
+# NOTE: The primary deployment target for watsonx Orchestrate is the local
+# stdio MCP toolkit (see deploy/ibm/local-mcp-toolkit/). This manifest is
+# retained only as a reference for future cloud.gov hosting.
+#
+# To deploy to cloud.gov:
+#   cf login -a api.fr.cloud.gov --sso
+#   cf target -o <your-org> -s <your-space>
+#   cf push
+#
+# Update the app name and route to your own unique values before pushing.
+applications:
+  - name: irs-research-mcp
+    buildpacks:
+      - python_buildpack
+    command: PYTHONPATH=src python -m irs_research_server.app
+    health-check-type: http
+    health-check-http-endpoint: /health
+    env:
+      PYTHONUNBUFFERED: 1
+      # HTTP refuses to start without auth: set AUTH_MODE=jwt + JWT_* via `cf set-env`
+      # (keep secrets out of this file), or ALLOW_UNAUTHENTICATED_HTTP=true behind an auth proxy.
+    disk_quota: 2G
+    memory: 512M

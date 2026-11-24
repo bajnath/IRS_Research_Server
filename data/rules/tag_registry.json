@@ -1,0 +1,137 @@
+{
+  "note": "Authoritative tag vocabulary. build_catalog.py rejects any tag not listed here and embeds this registry in the catalog; the MCP server, tools, and tests all read it from there. Topic tags are editorial metadata assigned by this project (title keyword rules, curated overrides in curated_edges.json, and schedule inheritance) - they are not classifications published by the IRS.",
+  "audience_tags": {
+    "individual": "Filed by or for individual taxpayers.",
+    "business": "Filed by businesses, exempt organizations, trusts, or estates.",
+    "information": "Information returns filed by third parties (payers, brokers, employers).",
+    "procedural": "Administrative and procedural forms (applications, elections, authorizations).",
+    "guidance": "Instructions, publications, and other IRS guidance documents.",
+    "retired": "Forms no longer issued by the IRS, kept for historical lineage."
+  },
+  "topic_tags": {
+    "core-return": {
+      "description": "Primary annual returns that schedules and other forms attach to or flow into.",
+      "representative_forms": ["Form 1040", "Form 1120", "Form 1065", "Form 1041", "Form 990", "Form 706"]
+    },
+    "retirement": {
+      "description": "Forms related to retirement accounts (IRA, 401k, pension, Trump Accounts), distributions, and retirement-related credits.",
+      "representative_forms": ["Form 1099-R", "Form 5329", "Form 8606", "Form 5498"]
+    },
+    "healthcare": {
+      "description": "Forms related to health coverage reporting, HSAs, Archer MSAs, and ACA marketplace insurance and premium tax credits.",
+      "representative_forms": ["Form 1095-A", "Form 1095-B", "Form 8889", "Form 8962"]
+    },
+    "gambling": {
+      "description": "Forms used to report gambling winnings and withholding on gambling proceeds.",
+      "representative_forms": ["Form W-2G"]
+    },
+    "international": {
+      "description": "Forms for foreign income, foreign tax credits, disclosure of foreign accounts and entities, nonresident aliens, and tax treaties.",
+      "representative_forms": ["Form 2555", "Form 1116", "Form 8938", "Form 5471", "Form 1040-NR", "Form 8833"]
+    },
+    "withholding": {
+      "description": "Forms related to federal income tax withholding by employers, payers, or on foreign payments.",
+      "representative_forms": ["Form W-4", "Form W-9", "Form 945", "Form W-8BEN"]
+    },
+    "self-employment": {
+      "description": "Forms related to self-employment income, sole proprietorships, freelance income, and related deductions.",
+      "representative_forms": ["Form 1040 (Schedule C)", "Form 1040 (Schedule SE)", "Form 1099-NEC"]
+    },
+    "employment-taxes": {
+      "description": "Forms for reporting, depositing, and reconciling payroll and employment taxes (FICA, FUTA).",
+      "representative_forms": ["Form 941", "Form 940", "Form W-2", "Form 944"]
+    },
+    "tips-overtime": {
+      "description": "Forms reporting tip and overtime income, including the OBBBA qualified tips and overtime deductions on Schedule 1-A.",
+      "representative_forms": ["Form 1040 (Schedule 1-A)", "Form W-2", "Form 4137", "Form 1099-NEC"]
+    },
+    "real-estate": {
+      "description": "Forms related to real property transactions, rental income, mortgage interest, and like-kind exchanges.",
+      "representative_forms": ["Form 1098", "Form 4797", "Form 8824", "Form 1099-S"]
+    },
+    "farming": {
+      "description": "Forms related to farm income, farm rental, and agricultural activity.",
+      "representative_forms": ["Form 1040 (Schedule F)", "Form 4835", "Form 1040 (Schedule J)"]
+    },
+    "investments": {
+      "description": "Forms for interest, dividends, capital gains and losses, digital assets, net investment income, and Opportunity Zone investments.",
+      "representative_forms": ["Form 1099-INT", "Form 1099-DIV", "Form 1099-B", "Form 8949", "Form 1040 (Schedule D)", "Form 8997"]
+    },
+    "estate-gift": {
+      "description": "Forms for estate and gift tax returns and related filings.",
+      "representative_forms": ["Form 706", "Form 709"]
+    },
+    "trusts-estates": {
+      "description": "Returns and forms related to trusts, estates, and fiduciary income reporting.",
+      "representative_forms": ["Form 1041", "Form 1041 (Schedule K-1)", "Form 990-PF"]
+    },
+    "exempt-organizations": {
+      "description": "Returns and forms filed by tax-exempt organizations (nonprofits, charities, foundations).",
+      "representative_forms": ["Form 990", "Form 990-EZ", "Form 990-N", "Form 1023", "Form 4720"]
+    },
+    "charitable-contributions": {
+      "description": "Forms for reporting and substantiating charitable contributions.",
+      "representative_forms": ["Form 8283", "Form 1040 (Schedule A)"]
+    },
+    "excise-tax": {
+      "description": "Forms for reporting federal excise taxes on fuel, vehicles, alcohol, tobacco, and other taxable goods.",
+      "representative_forms": ["Form 720", "Form 2290", "Form 4720"]
+    },
+    "credits": {
+      "description": "Forms for claiming federal tax credits, refundable and nonrefundable (education, child, energy, earned income, etc.).",
+      "representative_forms": ["Form 8863", "Form 1040 (Schedule 8812)", "Form 8936", "Form 2441"]
+    },
+    "deductions": {
+      "description": "Forms for claiming itemized or above-the-line deductions.",
+      "representative_forms": ["Form 1040 (Schedule A)", "Form 1040 (Schedule 1-A)", "Form 8829"]
+    },
+    "depreciation": {
+      "description": "Forms for claiming depreciation and amortization deductions on business and investment property.",
+      "representative_forms": ["Form 4562"]
+    },
+    "partnerships": {
+      "description": "Returns and schedules specific to partnerships and their partners' shares of income.",
+      "representative_forms": ["Form 1065", "Form 1065 (Schedule K-1)", "Form 8865"]
+    },
+    "s-corporations": {
+      "description": "Returns and schedules specific to S corporations and their shareholders' shares of income.",
+      "representative_forms": ["Form 1120-S", "Form 1120-S (Schedule K-1)"]
+    },
+    "c-corporations": {
+      "description": "Returns and forms specific to C corporations and corporate income tax.",
+      "representative_forms": ["Form 1120", "Form 1118", "Form 5471"]
+    },
+    "qualified-business-income": {
+      "description": "Forms for calculating and claiming the Section 199A Qualified Business Income (QBI) deduction.",
+      "representative_forms": ["Form 8995", "Form 8995-A"]
+    },
+    "renewable-energy": {
+      "description": "Forms for claiming credits related to clean energy vehicles, residential energy improvements, and renewable energy production.",
+      "representative_forms": ["Form 8936", "Form 5695"]
+    },
+    "education": {
+      "description": "Forms related to tuition, student loans, and education credits or savings.",
+      "representative_forms": ["Form 1098-T", "Form 1098-E", "Form 8863"]
+    },
+    "debt-cancellation": {
+      "description": "Forms reporting cancellation of debt and its exclusion from income.",
+      "representative_forms": ["Form 1099-C", "Form 982"]
+    },
+    "government-payments": {
+      "description": "Forms reporting payments from government entities (unemployment compensation, state tax refunds).",
+      "representative_forms": ["Form 1099-G"]
+    },
+    "alternative-minimum-tax": {
+      "description": "Forms for the alternative minimum tax, a parallel calculation that limits certain deductions and preferences.",
+      "representative_forms": ["Form 6251", "Form 8801"]
+    },
+    "estimated-tax": {
+      "description": "Forms for computing or paying estimated tax.",
+      "representative_forms": ["Form 1040-ES", "Form 2210"]
+    },
+    "filing-procedures": {
+      "description": "Forms for filing extensions, amended returns, and electronic-filing authorization.",
+      "representative_forms": ["Form 4868", "Form 7004", "Form 1040-X", "Form 8879"]
+    }
+  }
+}

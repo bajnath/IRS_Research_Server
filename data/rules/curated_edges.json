@@ -1,0 +1,412 @@
+{
+  "flows_into": [
+    {
+      "source": "Form W-2",
+      "target": "Form 1040",
+      "mechanism": "Wages, tips, and other compensation flow to Form 1040 Line 1a"
+    },
+    {
+      "source": "Form W-2",
+      "target": "Form 1040 (Schedule 1-A)",
+      "mechanism": "Qualified tips and overtime compensation flow to Schedule 1-A Parts II and III"
+    },
+    {
+      "source": "Form W-2G",
+      "target": "Form 1040 (Schedule 1)",
+      "mechanism": "Gambling winnings flow to Schedule 1 Part I (Additional Income)"
+    },
+    {
+      "source": "Form 1099-K",
+      "target": "Form 1040 (Schedule 1-A)",
+      "mechanism": "Qualified tips reported in Box 1a flow to Schedule 1-A Part II Line 5"
+    },
+    {
+      "source": "Form 1099-NEC",
+      "target": "Form 1040 (Schedule C)",
+      "mechanism": "Nonemployee compensation reported as gross receipts on Schedule C"
+    },
+    {
+      "source": "Form 1099-NEC",
+      "target": "Form 1040 (Schedule 1-A)",
+      "mechanism": "Qualified tips included in Box 1 flow to Schedule 1-A Part II Line 5"
+    },
+    {
+      "source": "Form 1099-MISC",
+      "target": "Form 1040 (Schedule 1-A)",
+      "mechanism": "Qualified tips included in Box 3 flow to Schedule 1-A Part II Line 5"
+    },
+    {
+      "source": "Form 1099-INT",
+      "target": "Form 1040 (Schedule B)",
+      "mechanism": "Interest income flows to Schedule B Part I (and Form 1040 Line 2b)"
+    },
+    {
+      "source": "Form 1099-DIV",
+      "target": "Form 1040 (Schedule B)",
+      "mechanism": "Ordinary and qualified dividends flow to Schedule B Part II (and Form 1040 Line 3b)"
+    },
+    {
+      "source": "Form 1099-B",
+      "target": "Form 8949",
+      "mechanism": "Brokerage capital asset proceeds and cost basis flow to Form 8949"
+    },
+    {
+      "source": "Form 8949",
+      "target": "Form 1040 (Schedule D)",
+      "mechanism": "Short- and long-term capital gain/loss totals flow to Schedule D"
+    },
+    {
+      "source": "Form 1065 (Schedule K-1)",
+      "target": "Form 1040 (Schedule E)",
+      "mechanism": "Partner's share of partnership income/loss flows to Schedule E Part II"
+    },
+    {
+      "source": "Form 1120-S (Schedule K-1)",
+      "target": "Form 1040 (Schedule E)",
+      "mechanism": "Shareholder's share of S corporation income/loss flows to Schedule E Part II"
+    },
+    {
+      "source": "Form 1041 (Schedule K-1)",
+      "target": "Form 1040 (Schedule E)",
+      "mechanism": "Beneficiary's share of estate/trust income flows to Schedule E Part III"
+    },
+    {
+      "source": "Form 1040 (Schedule 1)",
+      "target": "Form 1040",
+      "mechanism": "Additional income and adjustments to income flow to Form 1040 Lines 8 and 10"
+    },
+    {
+      "source": "Form 1040 (Schedule 1-A)",
+      "target": "Form 1040",
+      "mechanism": "Part VI total additional deductions (tips, overtime, car loan interest, enhanced senior deduction) flow to Form 1040 Line 13b"
+    },
+    {
+      "source": "Form 1040 (Schedule 2)",
+      "target": "Form 1040",
+      "mechanism": "Additional taxes (AMT, self-employment, etc.) flow to Form 1040 Lines 17 and 23"
+    },
+    {
+      "source": "Form 1040 (Schedule 3)",
+      "target": "Form 1040",
+      "mechanism": "Additional nonrefundable/refundable credits and payments flow to Form 1040 Lines 20 and 31"
+    },
+    {
+      "source": "Form 1040 (Schedule A)",
+      "target": "Form 1040",
+      "mechanism": "Total itemized deductions flow to Form 1040 Line 12"
+    },
+    {
+      "source": "Form 1040 (Schedule B)",
+      "target": "Form 1040",
+      "mechanism": "Total taxable interest and ordinary dividends flow to Form 1040 Lines 2b and 3b"
+    },
+    {
+      "source": "Form 1040 (Schedule C)",
+      "target": "Form 1040 (Schedule 1)",
+      "mechanism": "Net profit or loss from sole proprietorship flows to Schedule 1 Line 3"
+    },
+    {
+      "source": "Form 1040 (Schedule D)",
+      "target": "Form 1040",
+      "mechanism": "Net capital gain or deductible loss flows to Form 1040 Line 7"
+    },
+    {
+      "source": "Form 1040 (Schedule E)",
+      "target": "Form 1040 (Schedule 1)",
+      "mechanism": "Supplemental rental, royalty, and pass-through income flows to Schedule 1 Line 5"
+    },
+    {
+      "source": "Form 1040 (Schedule F)",
+      "target": "Form 1040 (Schedule 1)",
+      "mechanism": "Net farm profit or loss flows to Schedule 1 Line 6"
+    },
+    {
+      "source": "Form 1040 (Schedule SE)",
+      "target": "Form 1040 (Schedule 2)",
+      "mechanism": "Self-employment tax flows to Schedule 2 Line 4 (and 50% deduction to Schedule 1)"
+    },
+    {
+      "source": "Form 2441",
+      "target": "Form 1040 (Schedule 3)",
+      "mechanism": "Child and dependent care credit flows to Schedule 3 Line 2"
+    },
+    {
+      "source": "Form 8863",
+      "target": "Form 1040 (Schedule 3)",
+      "mechanism": "Nonrefundable education credits flow to Schedule 3 Line 3 (refundable AOC to Form 1040 Line 29)"
+    },
+    {
+      "source": "Form 8959",
+      "target": "Form 1040 (Schedule 2)",
+      "mechanism": "Additional Medicare Tax flows to Schedule 2 Line 11"
+    },
+    {
+      "source": "Form 8960",
+      "target": "Form 1040 (Schedule 2)",
+      "mechanism": "Net Investment Income Tax flows to Schedule 2 Line 12"
+    },
+    {
+      "source": "Form 8962",
+      "target": "Form 1040 (Schedule 2)",
+      "mechanism": "Excess advance premium tax credit repayment flows to Schedule 2 Line 2"
+    },
+    {
+      "source": "Form 4562",
+      "target": "Form 1040 (Schedule C)",
+      "mechanism": "Depreciation and Section 179 deduction flows to business/rental schedules (C, E, F, 1120, 1065)"
+    },
+    {
+      "source": "Form 4797",
+      "target": "Form 1040 (Schedule 1)",
+      "mechanism": "Ordinary gains/losses from sales of business property flow to Schedule 1 Line 4"
+    },
+    {
+      "source": "Form 8995",
+      "target": "Form 1040",
+      "mechanism": "Qualified Business Income (QBI) deduction flows to Form 1040 Line 13a"
+    },
+    {
+      "source": "Form 8995-A",
+      "target": "Form 1040",
+      "mechanism": "Complex Qualified Business Income (QBI) deduction flows to Form 1040 Line 13a"
+    }
+  ],
+  "manual_products": [
+    {
+      "product_number": "Form 990-N",
+      "title": "Electronic Notice (e-Postcard) for Tax-Exempt Organizations Not Required to File Form 990 or Form 990-EZ",
+      "category": "business_return",
+      "tags": ["business"],
+      "irs_about_url": "https://www.irs.gov/charities-non-profits/annual-electronic-filing-requirement-for-small-exempt-organizations-form-990-n-e-postcard",
+      "note": "Filed electronically only; there is no paper form or PDF. Generally available to small exempt organizations with annual gross receipts normally $50,000 or less. Due by the 15th day of the 5th month after the tax year ends."
+    },
+    {
+      "product_number": "Form 5498-TA",
+      "title": "Trump Account Contribution Information",
+      "category": "information_return",
+      "tags": ["information"],
+      "irs_about_url": null,
+      "note": "DRAFT only (December 2026 revision). The IRS states draft forms must not be filed or relied upon. Replace with the final version once it appears in the IRS forms index.",
+      "revisions": [
+        {
+          "revision_date": "Dec 2026",
+          "posted_date": "",
+          "pdf_url": "https://www.irs.gov/pub/irs-dft/f5498ta--dft.pdf",
+          "index_source": "draft-tax-forms"
+        }
+      ]
+    },
+    {
+      "product_number": "Form 990-P",
+      "title": "Form 990-P (Retired)",
+      "category": "business_return",
+      "tags": ["business", "retired"],
+      "irs_about_url": null,
+      "note": "Retired form; not in the current IRS forms index. Only its Schedule A (1971-1974 revisions) appears in the IRS prior-year index. Not to be confused with Form 990-PF."
+    }
+  ],
+  "superseded_by": [
+    {
+      "source": "Form 1040-EZ",
+      "target": "Form 1040",
+      "effective_tax_year": "2018",
+      "note": "Retired after Tax Year 2017 under TCJA; consolidated into redesigned Form 1040"
+    },
+    {
+      "source": "Form 1040-A",
+      "target": "Form 1040",
+      "effective_tax_year": "2018",
+      "note": "Retired after Tax Year 2017 under TCJA; consolidated into redesigned Form 1040"
+    }
+  ],
+  "split_from": [
+    {
+      "source": "Form 1099-NEC",
+      "parent": "Form 1099-MISC",
+      "effective_tax_year": "2020",
+      "note": "Reintroduced for Tax Year 2020 to separate nonemployee compensation out of Form 1099-MISC Box 7"
+    },
+    {
+      "source": "Form 1040-SR",
+      "parent": "Form 1040",
+      "effective_tax_year": "2019",
+      "note": "Introduced under Bipartisan Budget Act of 2018 as large-print senior variant of Form 1040"
+    }
+  ],
+  "related_publications": {
+    "Form 1040": ["Publication 17"],
+    "Form 1040 (Schedule 1)": ["Publication 525"],
+    "Form 1040 (Schedule A)": ["Publication 502", "Publication 526", "Publication 936"],
+    "Form 1040 (Schedule B)": ["Publication 550"],
+    "Form 1040 (Schedule C)": ["Publication 334", "Publication 587"],
+    "Form 1040 (Schedule D)": ["Publication 544", "Publication 550"],
+    "Form 1040 (Schedule E)": ["Publication 527", "Publication 925"],
+    "Form 1040 (Schedule F)": ["Publication 225"],
+    "Form 1040 (Schedule SE)": ["Publication 334"],
+    "Form 4562": ["Publication 946"],
+    "Form 4797": ["Publication 544"],
+    "Form 1065": ["Publication 541"],
+    "Form 1120": ["Publication 542"],
+    "Form 990": ["Publication 557"],
+    "Form 990-N": ["Publication 5248", "Publication 4839"],
+    "Form 4547": ["Publication 6181"],
+    "Form 5498-TA": ["Publication 6181"]
+  },
+  
+  "topic_tags": {
+    "Form 1040": ["core-return"],
+    "Form 1040 (Schedule 1)": ["self-employment", "international"],
+    "Form 1040 (Schedule 1-A)": ["tips-overtime", "deductions"],
+    "Form 1040 (Schedule 2)": ["alternative-minimum-tax", "self-employment", "healthcare", "investments"],
+    "Form 1040 (Schedule 3)": ["credits"],
+    "Form 1040 (Schedule 8812)": ["credits"],
+    "Form 1040 (Schedule A)": ["deductions", "charitable-contributions"],
+    "Form 1040 (Schedule B)": ["investments"],
+    "Form 1040 (Schedule C)": ["self-employment"],
+    "Form 1040 (Schedule D)": ["investments"],
+    "Form 1040 (Schedule E)": ["real-estate", "partnerships", "s-corporations", "trusts-estates"],
+    "Form 1040 (Schedule EIC)": ["credits"],
+    "Form 1040 (Schedule F)": ["self-employment", "farming"],
+    "Form 1040 (Schedule H)": ["employment-taxes"],
+    "Form 1040 (Schedule J)": ["farming"],
+    "Form 1040 (Schedule R)": ["credits", "retirement"],
+    "Form 1040 (Schedule SE)": ["self-employment", "employment-taxes"],
+    "Form 1040-NR": ["core-return", "international"],
+    "Form 1040-SR": ["core-return", "retirement"],
+    "Form 1040-SS": ["core-return", "self-employment", "international"],
+    "Form W-2": ["employment-taxes", "withholding", "tips-overtime"],
+    "Form W-2G": ["gambling", "withholding"],
+    "Form W-4": ["withholding", "employment-taxes"],
+    "Form W-4P": ["withholding", "retirement"],
+    "Form W-4R": ["withholding", "retirement"],
+    "Form W-8BEN": ["international", "withholding"],
+    "Form W-8BEN-E": ["international", "withholding"],
+    "Form W-8ECI": ["international", "withholding"],
+    "Form W-8EXP": ["international", "withholding"],
+    "Form W-8IMY": ["international", "withholding"],
+    "Form W-9": ["withholding"],
+    "Form 1042": ["international", "withholding"],
+    "Form 1042-S": ["international", "withholding"],
+    "Form 1095-A": ["healthcare"],
+    "Form 1095-B": ["healthcare"],
+    "Form 1095-C": ["healthcare", "employment-taxes"],
+    "Form 1098": ["real-estate", "deductions"],
+    "Form 1098-E": ["education", "deductions"],
+    "Form 1098-T": ["education", "credits"],
+    "Form 1099-A": ["real-estate"],
+    "Form 1099-B": ["investments"],
+    "Form 1099-C": ["debt-cancellation"],
+    "Form 1099-DA": ["investments"],
+    "Form 1099-DIV": ["investments"],
+    "Form 1099-G": ["government-payments"],
+    "Form 1099-INT": ["investments"],
+    "Form 1099-K": ["self-employment", "tips-overtime"],
+    "Form 1099-MISC": ["self-employment", "real-estate", "tips-overtime"],
+    "Form 1099-NEC": ["self-employment", "tips-overtime"],
+    "Form 1099-R": ["retirement"],
+    "Form 1099-S": ["real-estate", "investments"],
+    "Form 1099-SA": ["healthcare"],
+    "Form 982": ["debt-cancellation"],
+    "Form 1116": ["international", "credits"],
+    "Form 1118": ["international", "c-corporations", "credits"],
+    "Form 2441": ["credits"],
+    "Form 2555": ["international"],
+    "Form 3520": ["international"],
+    "Form 3520-A": ["international"],
+    "Form 3800": ["credits", "c-corporations", "partnerships"],
+    "Form 4137": ["tips-overtime", "employment-taxes"],
+    "Form 4562": ["depreciation", "self-employment"],
+    "Form 4547": ["retirement"],
+    "Form 5498-TA": ["retirement"],
+    "Form 8879-TA": ["retirement", "filing-procedures"],
+    "Form 4684": ["real-estate", "deductions"],
+    "Form 4797": ["real-estate", "investments"],
+    "Form 4835": ["real-estate", "farming"],
+    "Form 4868": ["filing-procedures"],
+    "Form 5227": ["trusts-estates", "exempt-organizations"],
+    "Form 5329": ["retirement"],
+    "Form 5471": ["international", "c-corporations"],
+    "Form 5472": ["international", "c-corporations"],
+    "Form 5498": ["retirement"],
+    "Form 5498-SA": ["healthcare"],
+    "Form 5500": ["retirement", "employment-taxes"],
+    "Form 5695": ["credits", "renewable-energy"],
+    "Form 706": ["core-return", "estate-gift"],
+    "Form 706-NA": ["estate-gift", "international"],
+    "Form 709": ["core-return", "estate-gift"],
+    "Form 720": ["excise-tax"],
+    "Form 940": ["employment-taxes"],
+    "Form 941": ["employment-taxes", "withholding"],
+    "Form 943": ["employment-taxes", "withholding"],
+    "Form 944": ["employment-taxes", "withholding"],
+    "Form 945": ["withholding"],
+    "Form 990": ["core-return", "exempt-organizations"],
+    "Form 990-EZ": ["exempt-organizations"],
+    "Form 990-N": ["exempt-organizations"],
+    "Form 990-PF": ["exempt-organizations", "trusts-estates"],
+    "Form 990-T": ["exempt-organizations"],
+    "Form 1023": ["exempt-organizations"],
+    "Form 1024": ["exempt-organizations"],
+    "Form 1065": ["core-return", "partnerships"],
+    "Form 1065 (Schedule K-1)": ["partnerships"],
+    "Form 1120": ["core-return", "c-corporations"],
+    "Form 1120-S": ["core-return", "s-corporations"],
+    "Form 1120-S (Schedule K-1)": ["s-corporations"],
+    "Form 1041": ["core-return", "trusts-estates"],
+    "Form 1041 (Schedule K-1)": ["trusts-estates"],
+    "Form 2290": ["excise-tax"],
+    "Form 4720": ["excise-tax", "exempt-organizations"],
+    "Form 6251": ["alternative-minimum-tax"],
+    "Form 6765": ["credits"],
+    "Form 7004": ["filing-procedures", "c-corporations", "partnerships"],
+    "Form 7200": ["employment-taxes", "credits"],
+    "Form 7202": ["self-employment", "credits"],
+    "Form 8233": ["international", "withholding"],
+    "Form 8283": ["deductions", "charitable-contributions"],
+    "Form 8288": ["international", "real-estate", "withholding"],
+    "Form 8288-A": ["international", "real-estate", "withholding"],
+    "Form 8288-B": ["international", "real-estate", "withholding"],
+    "Form 8582": ["real-estate"],
+    "Form 8606": ["retirement"],
+    "Form 8615": ["trusts-estates"],
+    "Form 8621": ["international"],
+    "Form 8801": ["credits", "alternative-minimum-tax"],
+    "Form 8802": ["international"],
+    "Form 8812": ["credits"],
+    "Form 8814": ["trusts-estates"],
+    "Form 8815": ["education", "investments"],
+    "Form 8824": ["real-estate", "investments"],
+    "Form 8829": ["self-employment", "real-estate", "deductions"],
+    "Form 8833": ["international"],
+    "Form 8838": ["international"],
+    "Form 8840": ["international"],
+    "Form 8843": ["international"],
+    "Form 8858": ["international"],
+    "Form 8863": ["credits", "education"],
+    "Form 8865": ["international", "partnerships"],
+    "Form 8880": ["retirement", "credits"],
+    "Form 8881": ["retirement", "credits"],
+    "Form 8882": ["credits"],
+    "Form 8885": ["healthcare", "credits"],
+    "Form 8889": ["healthcare", "deductions"],
+    "Form 8895": ["international", "c-corporations"],
+    "Form 8936": ["credits", "renewable-energy"],
+    "Form 8938": ["international"],
+    "Form 8949": ["investments"],
+    "Form 8959": ["employment-taxes"],
+    "Form 8960": ["investments"],
+    "Form 8962": ["healthcare", "credits"],
+    "Form 8975": ["international"],
+    "Form 8985": ["partnerships"],
+    "Form 8986": ["partnerships"],
+    "Form 8990": ["c-corporations", "partnerships"],
+    "Form 8991": ["excise-tax", "c-corporations"],
+    "Form 8992": ["international", "c-corporations"],
+    "Form 8993": ["international", "c-corporations"],
+    "Form 8994": ["credits", "employment-taxes"],
+    "Form 8995": ["qualified-business-income", "self-employment"],
+    "Form 8995-A": ["qualified-business-income", "self-employment"],
+    "Form 8996": ["investments"],
+    "Form 8997": ["investments"]
+  }
+}

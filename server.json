@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.bajnath/IRS_Research_Server",
+  "description": "IRS Research MCP Server — search and browse all IRS tax forms by category and topic, trace data-flow relationships between forms, retrieve full revision histories, and compare line-level changes across historical revisions. Intended for professional research use by academics, journalists, and law practitioners.",
+  "repository": {
+    "url": "https://github.com/bajnath/IRS_Research_Server",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "orchestrate": {
+    "toolkit": "irs_research_mcp_local",
+    "transport": "stdio"
+  }
+}
